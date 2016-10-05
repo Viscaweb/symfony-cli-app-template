@@ -7,7 +7,7 @@ This project is base template for a CLI app running with Symfony console compone
 How to use it ?
 -------------------
 
-1. Download the archive
+1. [Download](https://github.com/Viscaweb/symfony-cli-app-template/archive/master.zip) the archive
 2. Replace the package `name` property in composer.json
 3. Add you command class file in `src/App/Command` and register it in `bin/console`.
 
