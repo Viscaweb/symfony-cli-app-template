@@ -1,0 +1,24 @@
+{
+  "output": "app.phar",
+  "chmod": "0755",
+  "extract": false,
+  "main": "bin/console",
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [
+        "Tests",
+        "tests",
+        "test",
+        "Tester"
+      ],
+      "in": "vendor"
+    },
+    {
+      "name": "*.*",
+      "in": "src"
+    }
+  ],
+  "stub": true,
+  "web": false
+}

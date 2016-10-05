@@ -1,0 +1,17 @@
+{
+  "name": "Viscaweb/symfony-cli-app-template",
+  "authors": [
+    {
+      "name": "Damien Gavard",
+      "email": "damien@viscaweb.com"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "require": {
+    "symfony/console": "~3.1"
+  }
+}
